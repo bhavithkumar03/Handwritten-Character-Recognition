@@ -24,8 +24,16 @@ The model is a Convolutional Neural Network (CNN) designed for handwritten chara
 - Dense Layers: Several Dense layers (with 256 and 128 neurons) are used for high-level reasoning and classification. Dropout is applied in these layers to prevent overfitting.
 
 - Output Layer: The final Dense layer with 26 neurons corresponds to the 26 classes (letters A-Z) in the dataset.
+### Model Summary
 
+![Model Summary](https://github.com/user-attachments/assets/ed4ac383-b1e5-45f5-af7a-d1a59a9a043d)
+
+
+## Model Performace 
 The model is trained for 50 epochs, allowing sufficient iterations for the network to learn and generalize from the data. This extended training period helps achieve better convergence and fine-tune the model's parameters for optimal performance.
+
+![epoch 50](https://github.com/user-attachments/assets/56956c07-fc8a-46ca-922c-edec4c1d1774)
+
 
 ## Conclusion
 This project undertook a comparative analysis of three normalization techniques—Global Max Pooling, Batch Normalization, and Layer Normalization—for handwritten character recognition. The findings reveal that Layer Normalization significantly outperforms the other methods, achieving a remarkable accuracy of 99.98% on the A_Z Handwritten Data.csv dataset. This highlights Layer Normalization's superior effectiveness in refining the accuracy of character recognition systems.
