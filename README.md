@@ -29,7 +29,7 @@ The model is a Convolutional Neural Network (CNN) designed for handwritten chara
 ![Model Summary](https://github.com/user-attachments/assets/ed4ac383-b1e5-45f5-af7a-d1a59a9a043d)
 
 
-## Model Performace 
+## Comparative Analysis on Three Techniques
 The model is trained for 50 epochs, allowing sufficient iterations for the network to learn and generalize from the data. This extended training period helps achieve better convergence and fine-tune the model's parameters for optimal performance.
 
 ![epoch 50](https://github.com/user-attachments/assets/56956c07-fc8a-46ca-922c-edec4c1d1774)
