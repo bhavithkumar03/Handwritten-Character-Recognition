@@ -27,15 +27,15 @@ The model is a Convolutional Neural Network (CNN) designed for handwritten chara
 
 The model is trained for 50 epochs, allowing sufficient iterations for the network to learn and generalize from the data. This extended training period helps achieve better convergence and fine-tune the model's parameters for optimal performance.
 
-### Conclusion
+## Conclusion
 This project undertook a comparative analysis of three normalization techniques—Global Max Pooling, Batch Normalization, and Layer Normalization—for handwritten character recognition. The findings reveal that Layer Normalization significantly outperforms the other methods, achieving a remarkable accuracy of 99.98% on the A_Z Handwritten Data.csv dataset. This highlights Layer Normalization's superior effectiveness in refining the accuracy of character recognition systems.
 
 The study underscores the importance of choosing the right normalization approach to enhance performance. Future research should aim to further investigate and optimize these techniques, exploring their potential for broader applications and improving the robustness of handwritten text recognition systems. This work demonstrates the critical role of advanced normalization strategies in advancing the field of character recognition.
 
-### Impact
+## Impact
 The success of Layer Normalization in this study demonstrates its potential for creating more accurate and reliable character recognition systems. This advancement is valuable for applications that rely on precise interpretation of handwritten text, offering substantial improvements in efficiency and accuracy.
 
-### Acknowledgments
+## Acknowledgments
 - Kaggle for providing the dataset.
 - The developers and researchers contributing to CNN and normalization techniques.
 
